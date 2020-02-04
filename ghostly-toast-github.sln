@@ -1,7 +1,7 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio for Mac
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ghostly-toast-github", "ghostly-toast-github.csproj", "{7E880A35-2822-509B-AABC-26F43818C695}"
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{A8C2B5AE-65AF-0821-2A7E-9F744F34AD9B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,12 +9,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7E880A35-2822-509B-AABC-26F43818C695}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7E880A35-2822-509B-AABC-26F43818C695}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7E880A35-2822-509B-AABC-26F43818C695}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7E880A35-2822-509B-AABC-26F43818C695}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8C2B5AE-65AF-0821-2A7E-9F744F34AD9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8C2B5AE-65AF-0821-2A7E-9F744F34AD9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8C2B5AE-65AF-0821-2A7E-9F744F34AD9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8C2B5AE-65AF-0821-2A7E-9F744F34AD9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
