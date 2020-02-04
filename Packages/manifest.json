@@ -1,4 +1,5 @@
 {
+  "registry": "https://artifactory.prd.cds.internal.unity3d.com/artifactory/api/npm/upm-candidates",
   "dependencies": {
     "com.unity.addressables": "1.1.5",
     "com.unity.ads": "2.0.8",
