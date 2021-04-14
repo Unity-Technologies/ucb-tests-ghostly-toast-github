@@ -17,7 +17,7 @@ MonoBehaviour:
   m_Registries:
   - m_Id: main
     m_Name: 
-    m_Url: https://artifactory.prd.cds.internal.unity3d.com/artifactory/api/npm/upm-candidates
+    m_Url: https://packages.unity.com
     m_Scopes: []
     m_IsDefault: 1
   m_UserSelectedRegistryName: 
