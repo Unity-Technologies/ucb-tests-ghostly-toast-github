@@ -3,7 +3,7 @@
 --- !u!129 &1
 PlayerSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 22
+  serializedVersion: 23
   productGUID: 4471c85be6c0648129514e6d16f3c848
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
@@ -154,7 +154,7 @@ PlayerSettings:
     tvOS: 0
   overrideDefaultApplicationIdentifier: 0
   AndroidBundleVersionCode: 1
-  AndroidMinSdkVersion: 19
+  AndroidMinSdkVersion: 22
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1
   aotOptions: 
@@ -253,6 +253,7 @@ PlayerSettings:
     height: 180
     banner: {fileID: 0}
   androidGamepadSupportLevel: 0
+  chromeosInputEmulation: 1
   AndroidMinifyWithR8: 0
   AndroidMinifyRelease: 0
   AndroidMinifyDebug: 0
@@ -305,6 +306,9 @@ PlayerSettings:
   - m_BuildTarget: iOSSupport
     m_APIs: 10000000
     m_Automatic: 1
+  - m_BuildTarget: AndroidPlayer
+    m_APIs: 0b00000008000000
+    m_Automatic: 0
   m_BuildTargetVRSettings: []
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
@@ -317,6 +321,7 @@ PlayerSettings:
   m_BuildTargetGroupLightmapEncodingQuality: []
   m_BuildTargetGroupLightmapSettings: []
   m_BuildTargetNormalMapEncoding: []
+  m_BuildTargetDefaultTextureCompressionFormat: []
   playModeTestRunnerEnabled: 1
   runPlayModeTestAsEditModeTest: 0
   actionOnDotNetUnhandledException: 1
@@ -334,6 +339,7 @@ PlayerSettings:
   switchScreenResolutionBehavior: 2
   switchUseCPUProfiler: 0
   switchUseGOLDLinker: 0
+  switchLTOSetting: 0
   switchApplicationID: 0x01004b9000490000
   switchNSODependencies: 
   switchTitleNames_0: 
@@ -351,6 +357,7 @@ PlayerSettings:
   switchTitleNames_12: 
   switchTitleNames_13: 
   switchTitleNames_14: 
+  switchTitleNames_15: 
   switchPublisherNames_0: 
   switchPublisherNames_1: 
   switchPublisherNames_2: 
@@ -366,6 +373,7 @@ PlayerSettings:
   switchPublisherNames_12: 
   switchPublisherNames_13: 
   switchPublisherNames_14: 
+  switchPublisherNames_15: 
   switchIcons_0: {fileID: 0}
   switchIcons_1: {fileID: 0}
   switchIcons_2: {fileID: 0}
@@ -381,6 +389,7 @@ PlayerSettings:
   switchIcons_12: {fileID: 0}
   switchIcons_13: {fileID: 0}
   switchIcons_14: {fileID: 0}
+  switchIcons_15: {fileID: 0}
   switchSmallIcons_0: {fileID: 0}
   switchSmallIcons_1: {fileID: 0}
   switchSmallIcons_2: {fileID: 0}
@@ -396,6 +405,7 @@ PlayerSettings:
   switchSmallIcons_12: {fileID: 0}
   switchSmallIcons_13: {fileID: 0}
   switchSmallIcons_14: {fileID: 0}
+  switchSmallIcons_15: {fileID: 0}
   switchManualHTML: 
   switchAccessibleURLs: 
   switchLegalInformation: 
@@ -459,6 +469,8 @@ PlayerSettings:
   switchNetworkInterfaceManagerInitializeEnabled: 1
   switchPlayerConnectionEnabled: 1
   switchUseNewStyleFilepaths: 0
+  switchUseMicroSleepForYield: 1
+  switchMicroSleepForYieldTime: 25
   ps4NPAgeRating: 12
   ps4NPTitleSecret: 
   ps4NPTrophyPackPath: 
@@ -557,15 +569,14 @@ PlayerSettings:
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
-    Android: 1
-    Standalone: 1
+    Android: 0
+    Standalone: 0
   il2cppCompilerConfiguration: {}
   managedStrippingLevel: {}
   incrementalIl2cppBuild: {}
   suppressCommonWarnings: 1
   allowUnsafeCode: 0
   useDeterministicCompilation: 1
-  useReferenceAssemblies: 1
   enableRoslynAnalyzers: 1
   additionalIl2CppArgs: 
   scriptingRuntimeVersion: 1
