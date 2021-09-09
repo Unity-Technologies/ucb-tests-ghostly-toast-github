@@ -1,5 +1,5 @@
 {
-	"registry": "https://artifactory.prd.cds.internal.unity3d.com/artifactory/api/npm/upm-candidates",
+	"registry": "https://packages-v2-int.unity.com",
 	"dependencies": {
 	}
 }
